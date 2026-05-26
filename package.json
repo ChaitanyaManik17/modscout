@@ -1,0 +1,20 @@
+{
+  "name": "modscoutttt",
+  "version": "0.0.0",
+  "description": "ModScout — New member onboarding & first-post coaching for Reddit moderators",
+  "main": "index.js",
+  "scripts": {
+    "build": "devvit build",
+    "dev": "devvit playtest",
+    "deploy": "devvit upload"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.24"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  },
+  "type": "module",
+  "private": true,
+  "license": "BSD-3-Clause"
+}
